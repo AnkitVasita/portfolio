@@ -1,0 +1,13 @@
+.check {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+
+.check-body {
+  font-family: Poppins, sans-serif;
+  margin-top: 1.45rem;
+  font-weight: 500;
+  font-size: 1.15rem;
+  opacity: 0.7;
+}

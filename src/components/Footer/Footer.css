@@ -1,0 +1,59 @@
+.footer {
+  font-family: "var(--primaryFont)", sans-serif;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 7rem 2rem 2rem 2rem; */
+  padding: 2rem;
+}
+
+.footer p {
+  font-weight: 500;
+  font-family: var(--primaryFont);
+  font-size: 18px;
+}
+
+.footer p span {
+  font-size: 24px;
+}
+
+.footer > a {
+  font-size: 25px;
+  margin: 0 1rem 0 1rem;
+  color: rgb(224, 217, 217);
+}
+
+.twitter:hover {
+  color: lightseagreen;
+}
+.linkedin {
+  color: rgb(217, 222, 224);
+}
+.linkedin:hover {
+  color: rgb(3, 92, 133);
+}
+.github {
+  color: rgb(224, 217, 217);
+}
+.github:hover {
+  color: black;
+}
+.instagram {
+  color: rgb(224, 217, 217);
+}
+.instagram:hover {
+  color: rgb(175, 45, 45);
+}
+
+@media (min-width: 992px) and (max-width: 1380px) {
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 600px) {
+}
+@media screen and (max-width: 400px) {
+}
