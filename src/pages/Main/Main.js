@@ -6,17 +6,10 @@ import {
   Footer,
   Landing,
   About,
-  Skills,
-  Testimonials,
-  Blog,
   Education,
-  Experience,
   Contacts,
   Projects,
-  Services,
-  Achievement,
 } from "../../components";
-// import { headerData } from "../../data/headerData";
 
 function Main() {
   return (
@@ -32,12 +25,6 @@ function Main() {
       <Projects />
       <Contacts />
       <Footer />
-      {/* <Achievement /> */}
-      {/* <Skills /> */}
-      {/* <Experience /> */}
-      {/* <Services /> */}
-      {/* <Testimonials /> */}
-      {/* <Blog /> */}
     </div>
   );
 }
