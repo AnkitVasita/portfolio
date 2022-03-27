@@ -1,5 +1,4 @@
 import "./Education.css";
-import file from "../../assets/svg/skills/nextJS.svg";
 
 function AddSkill({ skillName }) {
   return (

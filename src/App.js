@@ -10,11 +10,13 @@ import Amazon from "./pages/Amazon/Amazon";
 import Chat from "./pages/Chat/Chat";
 import Movie from "./pages/Movie/Movie";
 import Covid from "./pages/Covid/Covid";
+import ScrollToTop from "./utils/ScrollToTop";
 
 function App() {
   return (
     <div className="app">
       <Router>
+        <ScrollToTop />
         <Switch>
           <Route path="/" exact component={Main} />
           <Route path="/amazon" exact component={Amazon} />
