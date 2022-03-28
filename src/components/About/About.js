@@ -16,7 +16,8 @@ function About() {
         <div className="about-description">
           <p style={{ color: theme.tertiary }}>
             {aboutData.description2}
-
+            <br />
+            <br />
             {aboutData.description1}
           </p>
         </div>
