@@ -24,11 +24,12 @@ function Education() {
     "React",
     "HTML & CSS",
     "TailwindCss",
+    "Redux",
     "NextJS",
-    "Styled-Components",
     "Github",
     "Redux",
     "Firebase",
+    "Styled-Components",
   ];
 
   return (
@@ -47,28 +48,53 @@ function Education() {
           applications.
         </p>
         <div className="education_skill">
-          <div>
-            {skills.slice(0, 2).map((skill, index) => {
-              return <AddSkill key={index} skillName={skill} />;
-            })}
+          <div className="check">
+            <div className="skill">
+              {skills.slice(0, 2).map((skillName) => (
+                <p>
+                  <span>○</span> {skillName}
+                </p>
+              ))}
+            </div>
+            <div className="skill">
+              {skills.slice(2, 4).map((skillName) => (
+                <p>
+                  <span>○</span> {skillName}
+                </p>
+              ))}
+            </div>
+            <div className="skill">
+              {skills.slice(4, 6).map((skillName) => (
+                <p>
+                  <span>○</span> {skillName}
+                </p>
+              ))}
+            </div>
           </div>
-          <div>
-            {skills.slice(2, 4).map((skill, index) => {
-              return <AddSkill key={index} skillName={skill} />;
-            })}
-          </div>
-          <div>
-            {skills.slice(4, 6).map((skill, index) => {
-              return <AddSkill key={index} skillName={skill} />;
-            })}
-          </div>
-          <div>
-            {skills.slice(6, 8).map((skill, index) => {
-              return <AddSkill key={index} skillName={skill} />;
-            })}
+          <div className="check">
+            <div className="skill">
+              {skills.slice(6, 8).map((skillName) => (
+                <p>
+                  <span>○</span> {skillName}
+                </p>
+              ))}
+            </div>
+            <div className="skill">
+              {skills.slice(8, 10).map((skillName) => (
+                <p>
+                  <span>○</span> {skillName}
+                </p>
+              ))}
+            </div>
           </div>
 
-          {/* <EducationCard /> */}
+          {/* <div className="skill">
+            {skills.slice(5, 10).map((skillName) => (
+              <p>
+                <span>○</span> {skillName}
+              </p>
+            ))}
+          </div> */}
         </div>
       </div>
     </div>
@@ -76,3 +102,24 @@ function Education() {
 }
 
 export default Education;
+
+//         <div>
+//            {skills.slice(0, 2).map((skill, index) => {
+//             return <AddSkill key={index} skillName={skill} />;
+//           })}
+//         </div>
+//         <div>
+//           {skills.slice(2, 4).map((skill, index) => {
+//             return <AddSkill key={index} skillName={skill} />;
+//           })}
+//         </div>
+//         <div>
+//           {skills.slice(4, 6).map((skill, index) => {
+//             return <AddSkill key={index} skillName={skill} />;
+//           })}
+//         </div>
+//         <div>
+//           {skills.slice(6, 8).map((skill, index) => {
+//             return <AddSkill key={index} skillName={skill} />;
+//           })}
+//         </div>
