@@ -59,7 +59,7 @@
 }
 
 .lcr-buttonContainer {
-  margin-top: 2rem;
+  margin-top: 1rem;
   width: 350px;
   display: flex;
   align-items: flex-end;
@@ -98,7 +98,6 @@
     font-size: 7vw;
     margin-left: 0;
     margin-bottom: 3.375rem;
-    padding-left: 2rem;
   }
 }
 
