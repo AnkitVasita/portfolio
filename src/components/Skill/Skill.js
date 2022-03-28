@@ -2,20 +2,10 @@ import React, { useContext } from "react";
 
 import { ThemeContext } from "../../contexts/ThemeContext";
 
-import "./Education.css";
+import "./Skill.css";
 // import EducationCard from "./EducationCard";
 
 // import { educationData } from "../../data/educationData";
-import AddSkill from "./AddSkill";
-import { FaHtml5, FaReact, FaGithub, FaInstagram } from "react-icons/fa";
-import { DiJavascript1 } from "react-icons/di";
-import {
-  SiTailwindcss,
-  SiStyledcomponents,
-  SiFirebase,
-  SiRedux,
-  SiNextdotjs,
-} from "react-icons/si";
 
 function Education() {
   const { theme } = useContext(ThemeContext);

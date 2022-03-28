@@ -7,7 +7,6 @@ import { headerData } from "../../data/headerData";
 
 import { FaTwitter, FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 import { makeStyles } from "@material-ui/core/styles";
-import { Button } from "@material-ui/core";
 
 function Landing() {
   const { theme } = useContext(ThemeContext);
@@ -94,9 +93,9 @@ function Landing() {
             </span>
           </h1>
           <div className="lcr-buttonContainer">
-            {headerData.resumePdf && (
+            {headerData.resume && (
               <a
-                href={headerData.resumePdf}
+                href={headerData.resume}
                 download="resume"
                 target="_blank"
                 rel="noreferrer"

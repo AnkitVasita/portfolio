@@ -6,9 +6,9 @@ import {
   Footer,
   Landing,
   About,
-  Education,
   Contacts,
   Projects,
+  Skill,
 } from "../../components";
 
 function Main() {
@@ -21,7 +21,7 @@ function Main() {
       <Navbar />
       <Landing />
       <About />
-      <Education />
+      <Skill />
       <Projects />
       <Contacts />
       <Footer />
