@@ -15,15 +15,15 @@ function About() {
       <div className="about-body">
         <div className="check">
           <div className="about-description">
-            <p style={{ color: theme.tertiary }}>
-              {aboutData.description2}
-              <br />
-              <br />
-              {aboutData.description1}
-            </p>
+            <p style={{ color: theme.tertiary }}>{aboutData.description1}</p>
           </div>
           <div className="about-description">
-            <p style={{ color: theme.tertiary }}>{aboutData.description3}</p>
+            <p style={{ color: theme.tertiary }}>
+              {aboutData.description3}
+              <br />
+              <br />
+              {aboutData.description4}
+            </p>
           </div>
         </div>
       </div>

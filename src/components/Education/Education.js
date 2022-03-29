@@ -40,14 +40,18 @@ function Education() {
           <p>Front End Developer</p>
           <p>oct 2019 - May 2020 </p>
           <p>
-            ○ Coded websites using HTML, CSS, JavaScript and other languages.
-            <br />
-            ○ Conducted testing and review of website design for responsiveness,
-            clarity and effectiveness.
+            ○ Coded websites using HTML, CSS, JavaScript and other libraries.
             <br />
             ○ Performed bug fixes and code reviews. Collaborated with marketing
-            department to determine organizational need and design pages to meet
+            team to determine organizational need and design pages to meet
             goals.
+            <br />
+            ○ Developed highly interactive Front end / User Interfaces for web
+            applications.
+            <br />
+            ○ Optimized web pages for maximum speed and scalability. Build
+            reusable code for future use and develop features to enhance the
+            user experience
             <br />○ Applied latest emerging technology, software and project
             application trends to update and maintain site applicability.
           </p>

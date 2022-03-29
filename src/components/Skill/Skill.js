@@ -32,10 +32,10 @@ function Education() {
         <h1>My Skills</h1>
 
         <p>
-          Through my studies, I've gained a solid understanding of computer
-          science and web development concepts, and have dedicated a lot of my
-          free time to apply these concepts to real-world scenarios and
-          applications.
+          Through my studies and work on projects, I've gained a solid
+          understanding of computer science and web development concepts, and
+          have dedicated a lot of my free time to apply these concepts to
+          real-world scenarios and applications.
         </p>
         <div className="education_skill">
           <div className="check">

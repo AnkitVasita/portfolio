@@ -1,6 +1,7 @@
 .about {
   width: 100%;
   height: 100%;
+  font-family: var(--primaryFont);
 }
 
 .about-body {
@@ -13,15 +14,17 @@
 }
 
 .about-description {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-evenly;
-  padding-right: 3rem;
+  /* padding-right: 3rem; */
   height: fit-content;
 }
 
 .about-description > p {
+  width: 94%;
   font-weight: 500;
   color: #e0d9d9;
   opacity: 0.7;
@@ -29,7 +32,6 @@
   font-size: 1rem;
   line-height: 184.69%;
   letter-spacing: 0.03em;
-  font-family: var(--primaryFont);
 }
 
 @media (min-width: 992px) and (max-width: 1380px) {
@@ -48,7 +50,7 @@
 @media screen and (max-width: 992px) {
   .about-body {
     /* padding-top: 2rem; */
-    padding: 2rem 2rem 2rem 2rem;
+    /* padding: 2rem 2rem 2rem 2rem; */
     display: flex;
     flex-direction: column;
     align-items: center;
