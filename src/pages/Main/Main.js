@@ -10,6 +10,7 @@ import {
   Projects,
   Skill,
 } from "../../components";
+import Education from "../../components/Education/Education";
 
 function Main() {
   return (
@@ -21,6 +22,7 @@ function Main() {
       <Navbar />
       <Landing />
       <About />
+      <Education />
       <Skill />
       <Projects />
       <Contacts />
