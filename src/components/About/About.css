@@ -34,7 +34,7 @@
 
 @media (min-width: 992px) and (max-width: 1380px) {
   .about-body {
-    padding: 4rem 4rem 9rem 4rem;
+    padding: 4rem 4rem 6rem 4rem;
   }
   .about-description > h2 {
     font-size: 3.3rem;
