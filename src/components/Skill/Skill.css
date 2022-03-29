@@ -68,6 +68,9 @@
     flex-direction: column;
   }
 
+  .education-description {
+    padding: 2rem;
+  }
   .education-description > p {
     width: 100%;
     font-size: 0.95rem;

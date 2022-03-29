@@ -52,7 +52,7 @@
   padding-top: 1rem;
 }
 
-.border {
+.edu-border {
   margin-top: 1rem;
   border: 1px solid rgb(224, 217, 217);
 }
@@ -71,7 +71,7 @@
 
 @media screen and (max-width: 800px) {
   .edu-section {
-    padding: 2rem 2rem 4rem 2rem;
+    padding: 2rem 1.25rem 5rem 1.25rem;
   }
   .edu-img {
     display: none;
