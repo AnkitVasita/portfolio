@@ -42,9 +42,6 @@
     font-size: 3.3rem;
     margin-bottom: 30px;
   }
-  /* .about-description > p {
-    font-size: 1.15rem;
-  } */
 }
 
 @media screen and (max-width: 992px) {
@@ -57,16 +54,14 @@
     justify-content: space-evenly;
   }
 
-  .about-description {
-    /* padding: 32px; */
-  }
-
   .about-description > h2 {
     font-size: 3rem;
     margin-bottom: 20px;
   }
 
   .about-description > p {
+    width: 100%;
+
     font-size: 1rem;
     font-weight: 500;
   }
@@ -83,6 +78,8 @@
 }
 
 @media screen and (max-width: 600px) {
+  .about-description {
+  }
   .about-description > h2 {
     font-size: 2.5rem;
   }
