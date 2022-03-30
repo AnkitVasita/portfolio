@@ -1,11 +1,6 @@
 import React, { useContext } from "react";
-
 import { ThemeContext } from "../../contexts/ThemeContext";
-
 import "./Skill.css";
-// import EducationCard from "./EducationCard";
-
-// import { educationData } from "../../data/educationData";
 
 function Education() {
   const { theme } = useContext(ThemeContext);
@@ -77,14 +72,6 @@ function Education() {
               ))}
             </div>
           </div>
-
-          {/* <div className="skill">
-            {skills.slice(5, 10).map((skillName) => (
-              <p>
-                <span>○</span> {skillName}
-              </p>
-            ))}
-          </div> */}
         </div>
       </div>
     </div>
@@ -92,24 +79,3 @@ function Education() {
 }
 
 export default Education;
-
-//         <div>
-//            {skills.slice(0, 2).map((skill, index) => {
-//             return <AddSkill key={index} skillName={skill} />;
-//           })}
-//         </div>
-//         <div>
-//           {skills.slice(2, 4).map((skill, index) => {
-//             return <AddSkill key={index} skillName={skill} />;
-//           })}
-//         </div>
-//         <div>
-//           {skills.slice(4, 6).map((skill, index) => {
-//             return <AddSkill key={index} skillName={skill} />;
-//           })}
-//         </div>
-//         <div>
-//           {skills.slice(6, 8).map((skill, index) => {
-//             return <AddSkill key={index} skillName={skill} />;
-//           })}
-//         </div>
