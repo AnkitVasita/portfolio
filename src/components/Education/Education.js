@@ -11,7 +11,7 @@ function Education() {
       <div className="edu-edu">
         <div className="my-education">
           <h1>Education</h1>
-          <div className="edu-icon" style={{ backgroundColor: theme.primary }}>
+          <div className="edu-icon">
             {" "}
             <img src={eduImgWhite} alt="" />
             <h3>Arya Institute of Engineering and Technolgy, Jaipur(Raj)</h3>

@@ -9,7 +9,7 @@ function Footer() {
   const { theme } = useContext(ThemeContext);
 
   return (
-    <div className="footer" style={{ backgroundColor: theme.secondary }}>
+    <div className="app-footer" style={{ backgroundColor: theme.secondary }}>
       {socialsData.linkedIn && (
         <a href={socialsData.linkedIn} target="_blank" rel="noreferrer">
           <FaLinkedin className="linkedin" aria-label="LinkedIn" />

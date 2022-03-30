@@ -16,7 +16,7 @@ function SingleProject({
   return (
     <>
       <div className="projectContent">
-        <img src={image} alt="" style={{ opacity: 0.8 }} />
+        <img src={image} alt="" />
         <h1 style={{ color: "#e0d9d9" }}>{name}</h1>
         <p>{desc}</p>
         <p>{tags}</p>{" "}
