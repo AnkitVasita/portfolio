@@ -23,8 +23,8 @@ function Amazon() {
     <>
       <div className="project-layout">
         <div className="project-textcontent">
-          <h1 className="project-heading" style={{ fontSize: "60px" }}>
-            Amazon
+          <h1 className="project-heading" style={{ fontSize: "50px" }}>
+            Z-Shop
           </h1>
           <p className="project-paragraph">
             Decore is a project I built alongside Ian Trent for a class project.
@@ -41,31 +41,52 @@ function Amazon() {
                 <th>Live</th>
               </tr>
               <tr>
-                <td>React</td>
+                <td>Next Js</td>
                 <td>
-                  <a href="#">Repository</a>
+                  <a
+                    href={project.code}
+                    target="_blank"
+                    rel="noreferrer"
+                    style={{ color: "cornflowerblue" }}
+                  >
+                    Repository
+                  </a>
                 </td>
                 <td>
-                  <a href="#">View Site</a>
+                  <a
+                    href={project.demo}
+                    style={{ color: "cornflowerblue" }}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    View Site
+                  </a>
                 </td>
               </tr>
               <tr>
-                {/* <td></td> */}
-                <td>Styled-Components</td>
+                <td>Redux</td>
                 <td></td>
                 <td></td>
-                {/* <td></td> */}
+              </tr>
+              <tr>
+                <td>Firebase</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>TailwindCss</td>
+                <td></td>
+                <td></td>
               </tr>
               <tr>
                 <td>Netlify</td>
                 <td></td>
                 <td></td>
-                {/* <td></td> */}
               </tr>
             </tbody>
           </table>
         </div>
-        <img src={project.image} className="project-img" alt="" />
+        <img src={project.image1} className="project-img" alt="" />
         <div className="project-textcontent">
           <h1 className="project-heading" style={{ fontSize: "30px" }}>
             Project Purpose and Goal
@@ -83,11 +104,12 @@ function Amazon() {
         </div>
         <div className="project-webstack">
           <div className="project-leftcontent">
-            <img
-              src={project.image}
-              className="project-leftcontent-img"
-              alt=""
-            />
+            <h4>Next Js</h4>
+            <h4>Redux</h4>
+            <h4>Firebase</h4>
+            <h4>TailwindCss</h4>
+            <h4>Stripe</h4>
+            <h4>Netlify</h4>
           </div>
           <div className="project-rightcontent">
             <h1 className="peoject-heading" style={{ fontSize: "30px" }}>
@@ -107,7 +129,7 @@ function Amazon() {
             </p>
           </div>
         </div>
-        <img src={project.image} className="project-img" alt="" />
+        <img src={project.image2} className="project-img" alt="" />
         <div className="project-centertext">
           <h1 className="peoject-heading" style={{ fontSize: "30px" }}>
             Problems and Thought Process
@@ -120,7 +142,7 @@ function Amazon() {
             proper html and css when exporting.
           </p>
         </div>
-        <img src={project.image} className="project-img" alt="" />
+        <img src={project.image4} className="project-img" alt="" />
         <div className="project-textcontent">
           <h1 className="project-heading" style={{ fontSize: "30px" }}>
             Lessons Learned
@@ -135,13 +157,13 @@ function Amazon() {
           </p>
         </div>
       </div>
-      <div className="footer">
+      <div className="project-footer">
         <div
           className="projects--body"
           style={{
             maxWidth: "1200px",
-            paddingLeft: "1.25rem",
-            paddingRight: "1.25rem",
+            // paddingLeft: "1.25rem",
+            // paddingRight: "1.25rem",
           }}
         >
           <h1
@@ -154,7 +176,7 @@ function Amazon() {
             className="projects--bodyContainer"
             style={{ alignItems: "flex-start", marginLeft: 0 }}
           >
-            {projectsData.slice(0, 2).map((project) => (
+            {projectsData.slice(2, 4).map((project) => (
               <SingleProject
                 theme={theme}
                 key={project.id}
@@ -164,7 +186,7 @@ function Amazon() {
                 tags={project.tags}
                 code={project.code}
                 demo={project.demo}
-                image={project.image}
+                image={project.image1}
                 link={project.link}
               />
             ))}

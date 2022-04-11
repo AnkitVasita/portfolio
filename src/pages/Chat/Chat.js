@@ -10,7 +10,7 @@ import { Contacts, Footer } from "../../components";
 function Chat() {
   const { theme } = useContext(ThemeContext);
 
-  const project = projectsData[0];
+  const project = projectsData[1];
   const projectCentertextStyleObj = {
     maxWidth: "800px",
     marginTop: "30px",
@@ -23,8 +23,8 @@ function Chat() {
     <>
       <div className="project-layout">
         <div className="project-textcontent">
-          <h1 className="project-heading" style={{ fontSize: "60px" }}>
-            Chat
+          <h1 className="project-heading" style={{ fontSize: "50px" }}>
+            Chat App
           </h1>
           <p className="project-paragraph">
             Decore is a project I built alongside Ian Trent for a class project.
@@ -43,29 +43,50 @@ function Chat() {
               <tr>
                 <td>React</td>
                 <td>
-                  <a href="#">Repository</a>
+                  <a
+                    href={project.code}
+                    target="_blank"
+                    rel="noreferrer"
+                    style={{ color: "cornflowerblue" }}
+                  >
+                    Repository
+                  </a>
                 </td>
                 <td>
-                  <a href="#">View Site</a>
+                  <a
+                    href={project.demo}
+                    target="_blank"
+                    rel="noreferrer"
+                    style={{ color: "cornflowerblue" }}
+                  >
+                    View Site
+                  </a>
                 </td>
               </tr>
               <tr>
-                {/* <td></td> */}
-                <td>Styled-Components</td>
+                <td>Firebase</td>
                 <td></td>
                 <td></td>
-                {/* <td></td> */}
+              </tr>
+              <tr>
+                <td>Redux</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Material-UI</td>
+                <td></td>
+                <td></td>
               </tr>
               <tr>
                 <td>Netlify</td>
                 <td></td>
                 <td></td>
-                {/* <td></td> */}
               </tr>
             </tbody>
           </table>
         </div>
-        <img src={project.image} className="project-img" alt="" />
+        <img src={project.image1} className="project-img" alt="" />
         <div className="project-textcontent">
           <h1 className="project-heading" style={{ fontSize: "30px" }}>
             Project Purpose and Goal
@@ -83,11 +104,11 @@ function Chat() {
         </div>
         <div className="project-webstack">
           <div className="project-leftcontent">
-            <img
-              src={project.image}
-              className="project-leftcontent-img"
-              alt=""
-            />
+            <h4>React</h4>
+            <h4>Firebase</h4>
+            <h4>Redux</h4>
+            <h4>Material-UI</h4>
+            <h4>Netlify</h4>
           </div>
           <div className="project-rightcontent">
             <h1 className="peoject-heading" style={{ fontSize: "30px" }}>
@@ -107,7 +128,11 @@ function Chat() {
             </p>
           </div>
         </div>
-        <img src={project.image} className="project-img" alt="" />
+        <div className="check-div">
+          <img src={project.image2} className="check-img" alt="" />
+          <img src={project.image3} className="check-img" alt="" />
+        </div>
+
         <div className="project-centertext">
           <h1 className="peoject-heading" style={{ fontSize: "30px" }}>
             Problems and Thought Process
@@ -120,12 +145,24 @@ function Chat() {
             proper html and css when exporting.
           </p>
         </div>
-        <img src={project.image} className="project-img" alt="" />
-        <div className="project-textcontent">
-          <h1 className="project-heading" style={{ fontSize: "30px" }}>
+        {/* <img src={project.image3} className="project-img" alt="" /> */}
+        <div className="project-centertext">
+          <h1
+            className="project-heading"
+            style={{ fontSize: "30px", width: "100%" }}
+          >
             Lessons Learned
           </h1>
-          <p className="project-paragraph">
+          <p
+            className="project-paragraph"
+            style={{
+              maxWidth: "800px",
+              marginTop: "30px",
+              marginLeft: "auto",
+              marginBottom: "30px",
+              marginRight: "auto",
+            }}
+          >
             This project helped to solidify a lot my React knowledge, such as
             using hooks or updating the states. I also got a lot of great
             practice using ES6+ syntax across the entirety of the project. This
@@ -135,13 +172,11 @@ function Chat() {
           </p>
         </div>
       </div>
-      <div className="footer">
+      <div className="project-footer">
         <div
           className="projects--body"
           style={{
             maxWidth: "1200px",
-            paddingLeft: "1.25rem",
-            paddingRight: "1.25rem",
           }}
         >
           <h1
@@ -164,7 +199,7 @@ function Chat() {
                 tags={project.tags}
                 code={project.code}
                 demo={project.demo}
-                image={project.image}
+                image={project.image1}
                 link={project.link}
               />
             ))}

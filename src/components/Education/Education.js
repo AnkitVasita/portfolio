@@ -28,7 +28,7 @@ function Education() {
           </div>
           <p>Front End Developer</p>
           <p>oct 2019 - May 2020 </p>
-          <p>
+          {/* <p>
             ○ Coded websites using HTML, CSS, JavaScript and other libraries.
             <br />
             ○ Performed bug fixes and code reviews. Collaborated with marketing
@@ -43,7 +43,7 @@ function Education() {
             user experience
             <br />○ Applied latest emerging technology, software and project
             application trends to update and maintain site applicability.
-          </p>
+          </p> */}
         </div>
       </div>
       <div className="edu-img">

@@ -19,7 +19,7 @@ function App() {
         <ScrollToTop />
         <Switch>
           <Route path="/" exact component={Main} />
-          <Route path="/amazon" exact component={Amazon} />
+          <Route path="/z-shop" exact component={Amazon} />
           <Route path="/covid" exact component={Covid} />
           <Route path="/chat" exact component={Chat} />
           <Route path="/movie" exact component={Movie} />

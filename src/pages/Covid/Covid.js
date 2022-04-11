@@ -10,7 +10,7 @@ import { Contacts, Footer } from "../../components";
 function Covid() {
   const { theme } = useContext(ThemeContext);
 
-  const project = projectsData[0];
+  const project = projectsData[3];
   const projectCentertextStyleObj = {
     maxWidth: "800px",
     marginTop: "30px",
@@ -23,8 +23,8 @@ function Covid() {
     <>
       <div className="project-layout">
         <div className="project-textcontent">
-          <h1 className="project-heading" style={{ fontSize: "60px" }}>
-            Covid
+          <h1 className="project-heading" style={{ fontSize: "44px" }}>
+            Covid Tracker
           </h1>
           <p className="project-paragraph">
             Decore is a project I built alongside Ian Trent for a class project.
@@ -43,29 +43,35 @@ function Covid() {
               <tr>
                 <td>React</td>
                 <td>
-                  <a href="#">Repository</a>
+                  <a
+                    href={project.code}
+                    style={{ color: "cornflowerblue" }}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Repository
+                  </a>
                 </td>
                 <td>
-                  <a href="#">View Site</a>
+                  <a
+                    href={project.demo}
+                    style={{ color: "cornflowerblue" }}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    View Site
+                  </a>
                 </td>
               </tr>
               <tr>
-                {/* <td></td> */}
-                <td>Styled-Components</td>
+                <td>Firebase</td>
                 <td></td>
                 <td></td>
-                {/* <td></td> */}
-              </tr>
-              <tr>
-                <td>Netlify</td>
-                <td></td>
-                <td></td>
-                {/* <td></td> */}
               </tr>
             </tbody>
           </table>
         </div>
-        <img src={project.image} className="project-img" alt="" />
+        <img src={project.image1} className="project-img" alt="" />
         <div className="project-textcontent">
           <h1 className="project-heading" style={{ fontSize: "30px" }}>
             Project Purpose and Goal
@@ -83,11 +89,8 @@ function Covid() {
         </div>
         <div className="project-webstack">
           <div className="project-leftcontent">
-            <img
-              src={project.image}
-              className="project-leftcontent-img"
-              alt=""
-            />
+            <h4>React</h4>
+            <h4>Firebase</h4>
           </div>
           <div className="project-rightcontent">
             <h1 className="peoject-heading" style={{ fontSize: "30px" }}>
@@ -135,13 +138,11 @@ function Covid() {
           </p>
         </div>
       </div>
-      <div className="footer">
+      <div className="project-footer">
         <div
           className="projects--body"
           style={{
             maxWidth: "1200px",
-            paddingLeft: "1.25rem",
-            paddingRight: "1.25rem",
           }}
         >
           <h1
@@ -164,7 +165,7 @@ function Covid() {
                 tags={project.tags}
                 code={project.code}
                 demo={project.demo}
-                image={project.image}
+                image={project.image1}
                 link={project.link}
               />
             ))}

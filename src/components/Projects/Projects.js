@@ -71,7 +71,7 @@ function Projects() {
                   tags={project.tags}
                   code={project.code}
                   demo={project.demo}
-                  image={project.image}
+                  image={project.image1}
                   link={project.link}
                 />
               ))}
@@ -88,13 +88,13 @@ function Projects() {
                   tags={project.tags}
                   code={project.code}
                   demo={project.demo}
-                  image={project.image}
+                  image={project.image1}
                   link={project.link}
                 />
               ))}
             </div>
 
-            {projectsData.length > 3 && (
+            {/* {projectsData.length > 3 && (
               <div className="projects--viewAll">
                 <Link to="/amazon">
                   <button>
@@ -103,7 +103,7 @@ function Projects() {
                   </button>
                 </Link>
               </div>
-            )}
+            )} */}
           </div>
         </div>
       )}
