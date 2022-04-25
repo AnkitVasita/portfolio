@@ -64,8 +64,8 @@ export const projectsData = [
     projectDesc:
       "React-Admin is a simple admin dashboard that is built with the help of React and Firebase.",
     tags: ["React", "Firebase"],
-    code: "https://github.com/hhhrrrttt222111/developer-portfolio",
-    demo: "https://github.com/hhhrrrttt222111/developer-portfolio",
+    code: "https://github.com/AnkitVasita/react-admin",
+    demo: "https://react-admindash.netlify.app",
     image1: admin2,
     image2: admin1,
     link: "/covid",
