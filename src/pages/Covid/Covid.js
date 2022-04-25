@@ -22,10 +22,8 @@ function Covid() {
           <p className="project-paragraph">
             React Admin is simply an admin dashboard that i built with React.
             This application allows admin to create new users to the dashboard
-            and manage all the data inside of it. This application have dark
-            mode as well which makes this dashboard looks really amazing. Admin
-            must have to log in with Email and Password in order to make
-            changes.
+            and manage all the data inside of it. Admin must have to log in with
+            Email and Password in order to make changes.
           </p>
           <table className="techtable">
             <tbody>

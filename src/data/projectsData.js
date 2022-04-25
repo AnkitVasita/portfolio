@@ -5,7 +5,6 @@ import eight from "../assets/svg/projects/eight.svg";
 import zshop1 from "../assets/images/z-shop1.jpg";
 import zshop2 from "../assets/images/z-shop2.jpg";
 import zshop3 from "../assets/images/z-shop3.jpg";
-import zshop4 from "../assets/images/z-shop4.jpg";
 import zshop5 from "../assets/images/z-shop5.png";
 import admin1 from "../assets/images/react-admin1.png";
 import admin2 from "../assets/images/react-admin2.png";
@@ -34,7 +33,7 @@ export const projectsData = [
   },
   {
     id: 2,
-    projectName: "Chat App",
+    projectName: "ChatBiz",
     projectDesc: "A simple chat application built with React and Firebase.",
     tags: ["React", "Firebase", "Context-Api", "Netlify"],
     code: "https://github.com/AnkitVasita/chat-application",
@@ -61,9 +60,9 @@ export const projectsData = [
   },
   {
     id: 4,
-    projectName: "Covid-19 Tracker",
+    projectName: "React-Admin",
     projectDesc:
-      "This project is a railway tracking system that allows users to obtain relevant information about train timing.",
+      "React-Admin is a simple admin dashboard that is built with the help of React and Firebase.",
     tags: ["React", "Firebase"],
     code: "https://github.com/hhhrrrttt222111/developer-portfolio",
     demo: "https://github.com/hhhrrrttt222111/developer-portfolio",

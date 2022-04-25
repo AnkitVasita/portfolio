@@ -21,29 +21,28 @@ function Education() {
           <p>2014 - 2018</p>
         </div>
         <div className="my-education">
-          <h1>Work Experience</h1>
+          <h1>Internship</h1>
           <div className="edu-icon">
             <img src={expImgWhite} alt="" />
-            <h3>SpazioX Private Limited ,Pune</h3>
+            <h3>Snowwhiteminerals pvt ltd , Ajmer</h3>
           </div>
           <p>Front End Developer</p>
-          <p>oct 2019 - May 2020 </p>
-          {/* <p>
-            ○ Coded websites using HTML, CSS, JavaScript and other libraries.
-            <br />
-            ○ Performed bug fixes and code reviews. Collaborated with marketing
-            team to determine organizational need and design pages to meet
-            goals.
-            <br />
-            ○ Developed highly interactive Front end / User Interfaces for web
-            applications.
-            <br />
-            ○ Optimized web pages for maximum speed and scalability. Build
-            reusable code for future use and develop features to enhance the
-            user experience
-            <br />○ Applied latest emerging technology, software and project
-            application trends to update and maintain site applicability.
-          </p> */}
+          <p> 2019 - 2020 </p>
+        </div>
+        <div className="my-education">
+          <h1>Freelance Work</h1>
+          <div className="edu-icon">
+            <img src={expImgWhite} alt="" />
+            <h3>SpazioX pvt ltd , Pune</h3>
+          </div>
+          <p>2021</p>
+        </div>
+        <div className="my-education">
+          <div className="edu-icon">
+            <img src={expImgWhite} alt="" />
+            <h3>Nixonbit , Banglore</h3>
+          </div>
+          <p>2021 - 2022</p>
         </div>
       </div>
       <div className="edu-img">
