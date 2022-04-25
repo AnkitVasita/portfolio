@@ -26,7 +26,7 @@
   line-height: 129.69%;
   letter-spacing: 0.03em;
   animation: 1s ease 0.2s 1 normal forwards running check;
-
+  width: fit-content;
   margin-bottom: 2rem;
 }
 

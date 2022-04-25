@@ -11,27 +11,21 @@ function Covid() {
   const { theme } = useContext(ThemeContext);
 
   const project = projectsData[3];
-  const projectCentertextStyleObj = {
-    maxWidth: "800px",
-    marginTop: "30px",
-    marginRight: "auto",
-    marginBottom: "30px",
-    marginLeft: "auto",
-  };
 
   return (
     <>
       <div className="project-layout">
         <div className="project-textcontent">
           <h1 className="project-heading" style={{ fontSize: "44px" }}>
-            Covid Tracker
+            React-Admin
           </h1>
           <p className="project-paragraph">
-            Decore is a project I built alongside Ian Trent for a class project.
-            We decided to create a react web application that would help other
-            developers get started with their web projects. Decore allows users
-            to customize a layout setup that will generate custom html and css
-            code that can be used as a starter template for any website.
+            React Admin is simply an admin dashboard that i built with React.
+            This application allows admin to create new users to the dashboard
+            and manage all the data inside of it. This application have dark
+            mode as well which makes this dashboard looks really amazing. Admin
+            must have to log in with Email and Password in order to make
+            changes.
           </p>
           <table className="techtable">
             <tbody>
@@ -77,14 +71,10 @@ function Covid() {
             Project Purpose and Goal
           </h1>
           <p className="project-paragraph">
-            We built this project because we know how tedious and repetitive
-            starting a new project from scratch can be, and we wanted to build
-            something that we would also use ourselves.
-            <br />
-            <br />
-            We had a timeframe of a little over a month to build out this
-            project, and our goal was to have the application fully functioning
-            by the end of that timeframe.
+            Main purpose of this application was to have CRUD functoinality to
+            it with the help of Firebase V9. Adding dark mode to the application
+            was another challange. As currently i'm working on this projects i
+            am trying to add new features like providing access to new users.
           </p>
         </div>
         <div className="project-webstack">
@@ -97,21 +87,14 @@ function Covid() {
               Web Stack and Explanation
             </h1>
             <p>
-              React was the clear choice for this project, because of its ease
-              of state management and the amount of packages available. We also
-              utilized Netlify as a server to host Decore, because it allows
-              live updates alongside github.
-            </p>
-            <p>
-              In the future, we hope to add Redux to this project to clean up
-              the states a bit, and we also are looking into a backend that can
-              allow writing to files so users can download the code right to
-              their computer.
+              React is used for this project beacause React is pretty much fast
+              at building User Interfaces and Components. Firebase V9 was used
+              for CRUD functionality.
             </p>
           </div>
         </div>
-        <img src={project.image} className="project-img" alt="" />
-        <div className="project-centertext">
+        <img src={project.image2} className="project-img" alt="" />
+        {/* <div className="project-centertext">
           <h1 className="peoject-heading" style={{ fontSize: "30px" }}>
             Problems and Thought Process
           </h1>
@@ -122,19 +105,17 @@ function Covid() {
             This required complex state management in order to display the
             proper html and css when exporting.
           </p>
-        </div>
+        </div> */}
         <img src={project.image} className="project-img" alt="" />
         <div className="project-textcontent">
           <h1 className="project-heading" style={{ fontSize: "30px" }}>
-            Lessons Learned
+            Future Improvements
           </h1>
           <p className="project-paragraph">
-            This project helped to solidify a lot my React knowledge, such as
-            using hooks or updating the states. I also got a lot of great
-            practice using ES6+ syntax across the entirety of the project. This
-            was a large code base to manage across a team, and we all got some
-            more great experience with version control and reviewing each others
-            code.
+            As of now i'm using React and Firebase for this application but in
+            the future I am thinking of adding some changes to the stack of this
+            application . As I'm excited to explore and learn MERN stack so i
+            will bring up changes according to it.
           </p>
         </div>
       </div>

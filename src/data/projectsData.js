@@ -6,7 +6,9 @@ import zshop1 from "../assets/images/z-shop1.jpg";
 import zshop2 from "../assets/images/z-shop2.jpg";
 import zshop3 from "../assets/images/z-shop3.jpg";
 import zshop4 from "../assets/images/z-shop4.jpg";
-import covid from "../assets/images/covid-19.png";
+import zshop5 from "../assets/images/z-shop5.png";
+import admin1 from "../assets/images/react-admin1.png";
+import admin2 from "../assets/images/react-admin2.png";
 import movie1 from "../assets/images/movie1.jpg";
 import movie2 from "../assets/images/movie2.jpg";
 import movie3 from "../assets/images/movie3.jpg";
@@ -20,22 +22,21 @@ export const projectsData = [
     id: 1,
     projectName: "Z-Shop",
     projectDesc:
-      "An e-commerce application built with React & Shopify for a coffee roasting company",
+      "An e-commerce application built with Next Js & Redux for online shopping and order products.",
     tags: ["NextJs", "Redux", "TailwindCss", "NextAuth", "Netlify"],
     code: "https://github.com/AnkitVasita/e-commerce-app",
     demo: "https://e-commerce-react1.netlify.app",
     image1: zshop1,
     image2: zshop2,
     image3: zshop3,
-    image4: zshop4,
+    image4: zshop5,
     link: "/z-shop",
   },
   {
     id: 2,
     projectName: "Chat App",
-    projectDesc:
-      "Weather forecast systems and applications predict weather conditions based on multiple parameters.",
-    tags: ["React", "Firebase", "Redux", "Netlify"],
+    projectDesc: "A simple chat application built with React and Firebase.",
+    tags: ["React", "Firebase", "Context-Api", "Netlify"],
     code: "https://github.com/AnkitVasita/chat-application",
     demo: "https://chat-react1.netlify.app",
     image1: chat1,
@@ -48,8 +49,8 @@ export const projectsData = [
     id: 3,
     projectName: "Movies Hub",
     projectDesc:
-      "This project involves the development of an Android application for viewing and managing patient data.",
-    tags: ["React", "Firebase", "Redux", "Styled-Components"],
+      "Movies hub application built with React for streming the popular  and latest movies.  ",
+    tags: ["React", "Redux", "Firebase", "Styled-Components"],
     code: "https://github.com/AnkitVasita/movie-react-app",
     demo: "http://movies-hub-react.netlify.app",
     image1: movie1,
@@ -66,7 +67,8 @@ export const projectsData = [
     tags: ["React", "Firebase"],
     code: "https://github.com/hhhrrrttt222111/developer-portfolio",
     demo: "https://github.com/hhhrrrttt222111/developer-portfolio",
-    image1: covid,
+    image1: admin2,
+    image2: admin1,
     link: "/covid",
   },
 

@@ -27,11 +27,10 @@ function Movie() {
             Movies Hub
           </h1>
           <p className="project-paragraph">
-            Decore is a project I built alongside Ian Trent for a class project.
-            We decided to create a react web application that would help other
-            developers get started with their web projects. Decore allows users
-            to customize a layout setup that will generate custom html and css
-            code that can be used as a starter template for any website.
+            Movies hub is a project that i built with the help of React and
+            Redux. Movies hub allows users to stream and search latest and
+            trending movies that are running in the market. Users can see full
+            description about movies before jumpling on it .
           </p>
           <table className="techtable">
             <tbody>
@@ -93,14 +92,11 @@ function Movie() {
             Project Purpose and Goal
           </h1>
           <p className="project-paragraph">
-            We built this project because we know how tedious and repetitive
-            starting a new project from scratch can be, and we wanted to build
-            something that we would also use ourselves.
-            <br />
-            <br />
-            We had a timeframe of a little over a month to build out this
-            project, and our goal was to have the application fully functioning
-            by the end of that timeframe.
+            I used React-Router heavily because this application requires a lot
+            of routing between pages and React-Router is very flexible and
+            efficient with react. Utilized TMDB's Api to fetch the movies for
+            different genres . Fetching dynamic Api's from TMDB's server was
+            another task to manage.
           </p>
         </div>
         <div className="project-webstack">
@@ -116,16 +112,17 @@ function Movie() {
               Web Stack and Explanation
             </h1>
             <p>
-              React was the clear choice for this project, because of its ease
-              of state management and the amount of packages available. We also
-              utilized Netlify as a server to host Decore, because it allows
-              live updates alongside github.
+              React made the most sense for the web application because when it
+              comes to building user interfaces and reusable components React is
+              perfect choice for it . Used Redux middleware for handling
+              asynchronus apl calls. React-Router made it very easy and
+              understandable for routing between pages.
             </p>
             <p>
-              In the future, we hope to add Redux to this project to clean up
-              the states a bit, and we also are looking into a backend that can
-              allow writing to files so users can download the code right to
-              their computer.
+              Styled-components was used because the structure of CSS-in-js is
+              much clearer and prevents overrides. In the future, i'm thinking
+              of adding more features to this application like user
+              authentication. Used Netlify to host this application.
             </p>
           </div>
         </div>
@@ -135,11 +132,10 @@ function Movie() {
             Problems and Thought Process
           </h1>
           <p className="project-paragraph" style={projectCentertextStyleObj}>
-            Processing the necessary code into the editor was the most complex
-            part of this process, we needed to update the object listing of the
-            elements everytime a user added, removed, or reordered any element.
-            This required complex state management in order to display the
-            proper html and css when exporting.
+            Manage the movies data inside a single global store and pull out the
+            necessory details into components was a bit complex part. Add
+            pagination to the app so had to make use of dynamic api calls
+            according to it. .
           </p>
         </div>
         <img src={project.image4} className="project-img" alt="" />
@@ -148,12 +144,9 @@ function Movie() {
             Lessons Learned
           </h1>
           <p className="project-paragraph">
-            This project helped to solidify a lot my React knowledge, such as
-            using hooks or updating the states. I also got a lot of great
-            practice using ES6+ syntax across the entirety of the project. This
-            was a large code base to manage across a team, and we all got some
-            more great experience with version control and reviewing each others
-            code.
+            Learned how to make asynchronus api call using Redux Async Thunk.
+            React hooks was key part of this application because it makes it
+            very easy to manage the state.
           </p>
         </div>
       </div>

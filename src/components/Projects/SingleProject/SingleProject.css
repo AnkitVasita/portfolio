@@ -57,6 +57,7 @@
   opacity: 0.7;
 }
 .tags {
+  width: fit-content;
   display: flex;
   flex-direction: row;
   margin: 20px 0 30px;

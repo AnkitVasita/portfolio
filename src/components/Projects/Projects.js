@@ -93,17 +93,6 @@ function Projects() {
                 />
               ))}
             </div>
-
-            {/* {projectsData.length > 3 && (
-              <div className="projects--viewAll">
-                <Link to="/amazon">
-                  <button>
-                    View All
-                    <HiArrowRight className={classes.viewArr} />
-                  </button>
-                </Link>
-              </div>
-            )} */}
           </div>
         </div>
       )}

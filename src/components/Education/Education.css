@@ -26,12 +26,14 @@
   letter-spacing: 0.03em;
   animation: 1s ease 0.2s 1 normal forwards running check;
   margin-bottom: 2rem;
+  width: fit-content;
 }
 .edu-icon {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+  width: fit-content;
 }
 
 .edu-icon h3 {
@@ -58,7 +60,7 @@
   letter-spacing: 0.03em;
   font-family: var(--primaryFont);
   padding-left: 4.125rem;
-
+  width: fit-content;
   opacity: 0.7;
 }
 

@@ -7,12 +7,12 @@ function Education() {
   const skills = [
     "Javascript",
     "React",
+    "Redux",
     "HTML & CSS",
+    "Next JS",
     "TailwindCss",
-    "Redux",
-    "NextJS",
     "Github",
-    "Redux",
+    "React-Query",
     "Firebase",
     "Styled-Components",
   ];
