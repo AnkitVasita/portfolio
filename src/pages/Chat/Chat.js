@@ -24,15 +24,15 @@ function Chat() {
       <div className="project-layout">
         <div className="project-textcontent">
           <h1 className="project-heading" style={{ fontSize: "50px" }}>
-            Chat App
+            ChatBiz
           </h1>
           <p className="project-paragraph">
-            Chat app is a simple but powerful chat application that everybody
-            can use to communicate using text messages. It's like a Discord
-            server or a Slack room . To enter the chat and interact with people,
-            the user must log in using his Google account. Once logged in, the
-            user can read the previous messages from the chat and start chatting
-            by sending messages.
+            ChatBiz is a simple but powerful chat application that everybody can
+            use to communicate using text messages. It's like a Discord server
+            or a Slack room . To enter the chat and interact with people, the
+            user must log in using his Google account. Once logged in, the user
+            can read the previous messages from the chat and start chatting by
+            sending messages.
           </p>
           <table className="techtable">
             <tbody>

@@ -27,7 +27,7 @@ function Education() {
             <h3>Snowwhiteminerals pvt ltd , Ajmer</h3>
           </div>
           <p>Front End Developer</p>
-          <p> 2019 - 2020 </p>
+          <p> Jan 2019 - March 2020 </p>
         </div>
         <div className="my-education">
           <h1>Freelance Work</h1>
@@ -35,14 +35,14 @@ function Education() {
             <img src={expImgWhite} alt="" />
             <h3>SpazioX pvt ltd , Pune</h3>
           </div>
-          <p>2021</p>
+          <p>Feb 2021 - July 2021</p>
         </div>
         <div className="my-education">
           <div className="edu-icon">
             <img src={expImgWhite} alt="" />
             <h3>Nixonbit , Banglore</h3>
           </div>
-          <p>2021 - 2022</p>
+          <p>July 2021 - March 2022</p>
         </div>
       </div>
       <div className="edu-img">
