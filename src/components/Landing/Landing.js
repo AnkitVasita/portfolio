@@ -46,7 +46,7 @@ function Landing() {
           <div className="social">
             <div className="landing-border"></div>
             {socialsData.twitter && (
-              <a href={socialsData.twitter} target="_blank" rel="noreferrer">
+              <a href={socialsData.linkedIn} target="_blank" rel="noreferrer">
                 <FaLinkedin
                   className="landing-social"
                   style={{ color: theme.tertiary }}
