@@ -15,12 +15,12 @@ import Education from "../../components/Education/Education";
 function Main() {
   return (
     <div>
-      <Helmet>
+      {/* <Helmet>
         <title>Ankit Vasita - Porfolio</title>
-      </Helmet>
+      </Helmet> */}
 
       <Navbar />
-      <Landing />
+      {/* <Landing /> */}
       <About />
       <Education />
       <Skill />

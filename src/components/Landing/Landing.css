@@ -58,11 +58,16 @@
   flex-direction: row;
 }
 
+.check > h1 {
+  display: flex;
+  flex-direction: column;
+}
+
 .lcr-buttonContainer {
   margin-top: 1rem;
   width: 350px;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: space-between;
   font-family: "var(--primaryFont)", sans-serif;
 }

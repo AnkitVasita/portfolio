@@ -23,6 +23,19 @@
   color: var(--primary-2);
   font-size: 2.5rem;
   user-select: none;
+  cursor: pointer;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-right: 185px;
+}
+
+.menu > a {
+  margin-right: 77px;
 }
 
 .navLink--container {
@@ -33,7 +46,9 @@
   background: rgba(33, 33, 33, 0.15) !important;
   backdrop-filter: blur(20px) !important;
 }
-
+.burger-icon {
+  display: none !important;
+}
 @media (max-width: 1100px) {
   .navbar--container {
     padding: 0 2rem;
@@ -51,6 +66,9 @@
   .navLink--container {
     margin-top: 3rem;
   }
+  .menu {
+    margin-right: 0;
+  }
 }
 
 @media (max-width: 600px) {
@@ -65,6 +83,17 @@
   }
   .MuiDrawer-paper {
     border-radius: 0 !important;
+  }
+  .menu {
+    display: none;
+    margin-right: 0;
+  }
+  .menu > a {
+    margin-right: 50px;
+  }
+
+  .burger-icon {
+    display: inline-block !important;
   }
 }
 

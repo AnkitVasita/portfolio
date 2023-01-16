@@ -1,0 +1,14 @@
+.sidemenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(224, 217, 217);
+  font-family: Poppins;
+  font-size: 1.2rem;
+  margin-top: 50px;
+}
+
+.sidemenu > h3 {
+  margin-bottom: 40px;
+}
