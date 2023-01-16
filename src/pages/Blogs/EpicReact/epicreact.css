@@ -1,0 +1,8 @@
+.blog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 13rem;
+  color: rgb(224, 217, 217);
+  font-family: var(--primaryFont);
+}
