@@ -14,6 +14,7 @@ import ScrollToTop from "./utils/ScrollToTop";
 import EpicReact from "./pages/Blogs/EpicReact";
 import Home from "./pages/Home/Home";
 import Menu from "./pages/Menu";
+import Blogs from "./pages/Blogs";
 
 function App() {
   return (
@@ -28,7 +29,8 @@ function App() {
           <Route path="/chat" exact component={Chat} />
           <Route path="/movie" exact component={Movie} />
           <Route path="/menu" exact component={Menu} />
-          <Route path="/blog/epicreact" exact component={EpicReact} />
+          {/* <Route path="/blog/epicreact" exact component={EpicReact} /> */}
+          <Route path="/blogs" exact component={Blogs} />
 
           <Redirect to="/" />
         </Switch>

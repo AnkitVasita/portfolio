@@ -5,7 +5,6 @@ import "../EpicReact/epicreact.css";
 const EpicReact = () => {
   return (
     <>
-      <Navbar />
       <div className="blog">
         <h1>Interesting blogs are coming soon...</h1>
       </div>

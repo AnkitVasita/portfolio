@@ -50,7 +50,7 @@ function Navbar() {
               {shortname("Portfolio")}
             </h3>
           </Link>
-          <Link to="/blog/epicreact">
+          <Link to="/blogs">
             <h3
               style={{
                 color: theme.tertiary,
